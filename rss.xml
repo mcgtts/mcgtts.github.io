@@ -1,4 +1,111 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[gtts的博客]]></title><description><![CDATA[人生没有白走的路，每一步都算数]]></description><link>http://www.mcgtts.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 31 Dec 2018 02:19:01 GMT</lastBuildDate><item><title><![CDATA[2019，全新的开始]]></title><description><![CDATA[2018年接近了尾声，这个冬天格外的寒冷，也让我变得更加的冷静，愿意花时间来思考未来的路将怎么走。李笑来说“七年就是一辈子”，我很乐意接受这个概念，将我的人生分为很多辈子来过。 从开始工作到201…]]></description><link>http://www.mcgtts.com/new-born/</link><guid isPermaLink="false">http://www.mcgtts.com/new-born/</guid><pubDate>Wed, 26 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;2018年接近了尾声，这个冬天格外的寒冷，也让我变得更加的冷静，愿意花时间来思考未来的路将怎么走。李笑来说“七年就是一辈子”，我很乐意接受这个概念，将我的人生分为很多辈子来过。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[gtts的博客]]></title><description><![CDATA[人生没有白走的路，每一步都算数]]></description><link>http://www.mcgtts.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 31 Dec 2018 03:45:56 GMT</lastBuildDate><item><title><![CDATA[使用Gatsby.js+github pages搭建个人博客]]></title><description><![CDATA[前几天突然想搭建个人博客，对 和 都很熟悉，我们公司也有类似的文档生成工具 Ydoc , 所以更加偏向于使用 的方案，就选择了 。这还没过几天就发现了 ，当看到“Gatsby.js 是一个基于 React…]]></description><link>http://www.mcgtts.com/2018-12-31---setup-blog/</link><guid isPermaLink="false">http://www.mcgtts.com/2018-12-31---setup-blog/</guid><pubDate>Mon, 31 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;前几天突然想搭建个人博客，对&lt;code class=&quot;language-text&quot;&gt;Jekyll&lt;/code&gt;和&lt;code class=&quot;language-text&quot;&gt;Hexo&lt;/code&gt;都很熟悉，我们公司也有类似的文档生成工具&lt;a href=&quot;https://github.com/YMFE/ydoc&quot;&gt;Ydoc&lt;/a&gt;, 所以更加偏向于使用&lt;code class=&quot;language-text&quot;&gt;js&lt;/code&gt;的方案，就选择了&lt;code class=&quot;language-text&quot;&gt;Hexo&lt;/code&gt;。这还没过几天就发现了&lt;code class=&quot;language-text&quot;&gt;Gatsby.js&lt;/code&gt;，当看到“Gatsby.js 是一个基于 React 的静态网站生成器”，果断开始研究，这一研究，就把自己的博客马上换成了&lt;a href=&quot;https://www.gatsbyjs.org&quot;&gt;Gatsby.js&lt;/a&gt; 。&lt;/p&gt;
+&lt;h2&gt;起步&lt;/h2&gt;
+&lt;p&gt;1、安装cli&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;npm install -g gatsby-cli&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;2、站在别人的肩膀上，选择官方博客的starter，&lt;a href=&quot;https://github.com/gatsbyjs/gatsby-starter-blog&quot;&gt;gatsby-starter-blog&lt;/a&gt;, 创建一个新的Gatsby 站点&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;npx gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;3、本地开发环境&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;cd my-blog-starter/
+gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;在浏览器里打开&lt;code class=&quot;language-text&quot;&gt;http://localhost:8000&lt;/code&gt;，即可看到一个简洁的博客。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/90e32f0dcb9aad322e9437c67f24ee92/67524/firstblog1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 460px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 106.08695652173911%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAABYlAAAWJQFJUiTwAAACgklEQVQ4y51U607iUBD20fUBjDGGxMS/voBGf2yyWQmyumZFLm2ptFDAlgqFAuJCr/DtmZG6FHE1nuTrXNoznflmztmCWPP5HJvWZ/2r9hY9Tk9Psb+/j4ODA2QyGezs7OD8/Jx9u7u7ODo6Yv/h4SFOTk6wvb3N/r29PRQKhVRQDthut3GZyyEncHV1hbOzM+TzeaiqisvLPLLZLIrFIi6EbDQauL29ZRwfH6NUKr0N6M2m8MI4VUYURYz1tZjHb32LRbrk37kfuPj+DUq1inK5zNn8ur5GoViG1LBQ1k0U9Rcp1S1Ihg1Z+B8fHxEEQSooB3x6esLzeIQwijGbeQjCEKFAJOxIfOeLaoIlQmGHS7kxw1Vj81q8C9qb7E9l2HuO8DAOYQwDGK6PpushjOevGz6DJCgH1OwRbmodXOsOqt0p7vsB4o8Sf6cxHNA2H6BVZeiqDKtlwGzW0WwaMAwDmqaxbLVaLBNYlsWgkZtMJukMyeE4DnoCg8EA/X7/xe710O122aaOkk2gb1a7u1bygrtG3aQy/YjsBeafKPFdDtXuH2Q1Fz+NMQodD4oT8g++zmHHgnavoiV46wg+B30HrutiIEAlU4mrGA6H7B+NRkyN7/vpDDu2DU3XxTk1ICsKdKET8XRua7Ua6yQJ9XqdJTWLDgTxnxxRDpie6+XArpWR8EQXQIL/llxzPNw8POOuI2ZQ6F9ZqYBWb4DyvZi5tg134vHLWGRBpYTLc02I4/hVp7Eh7ghJxv84tEyoioSqLEGRKlAEj7Isoypun0qlAkmSWCcf3UamafI8UuNswf9sNlubwzCCz38M4HkeptMpI8mCJGWV6B9y+FXONg32X/SiPyMp8GE8AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;blogimg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/90e32f0dcb9aad322e9437c67f24ee92/67524/firstblog1.png&quot;
+        srcset=&quot;/static/90e32f0dcb9aad322e9437c67f24ee92/15e19/firstblog1.png 148w,
+/static/90e32f0dcb9aad322e9437c67f24ee92/ea422/firstblog1.png 295w,
+/static/90e32f0dcb9aad322e9437c67f24ee92/67524/firstblog1.png 460w&quot;
+        sizes=&quot;(max-width: 460px) 100vw, 460px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;部署到github pages&lt;/h2&gt;
+&lt;p&gt;需要在github上上创建一个名字叫&lt;code class=&quot;language-text&quot;&gt;username.github.io&lt;/code&gt;的工程，比如本人的github 用户名是&lt;code class=&quot;language-text&quot;&gt;mcgtts&lt;/code&gt;，那么创建的工程名字就是&lt;a href=&quot;https://github.com/mcgtts/mcgtts.github.io&quot;&gt;mcgtts.github.io&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;1、安装依赖&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install gh-pages --save-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;2、配置&lt;/p&gt;
+&lt;p&gt;找到&lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt;,添加pathPrefix 配置&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  pathPrefix&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`/project-name`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;如果不需要路径，直接配置成&lt;code class=&quot;language-text&quot;&gt;pathPrefix: /&lt;/code&gt;就可以。&lt;/p&gt;
+&lt;p&gt;在package.json，添加一个scripts 配置，将先将静态文件build 到public 目录，然后再push 到github工程的gh-pages 分支。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt; &lt;span class=&quot;token property&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby build --prefix-paths &amp;amp;&amp;amp; gh-pages -d public&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;如果你想push 到master分支，配置如下：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt; &lt;span class=&quot;token property&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby build --prefix-paths &amp;amp;&amp;amp; gh-pages -d public -b master&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;3、发布&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm run  deploy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;执行完毕后，打开 &lt;a href=&quot;https://username.github.io/project-name/&quot;&gt;https://username.github.io/project-name/&lt;/a&gt; 即可看到效果。&lt;/p&gt;
+&lt;p&gt;4、绑定域名&lt;/p&gt;
+&lt;p&gt;在项目的根目录新建&lt;code class=&quot;language-text&quot;&gt;static&lt;/code&gt; 文件夹，然后添加&lt;code class=&quot;language-text&quot;&gt;CNAME&lt;/code&gt;文件，写上自己的域名。&lt;/p&gt;
+&lt;p&gt;5、域名解析&lt;/p&gt;
+&lt;p&gt;我自己的配置如下：
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5d67873ccde3fb99c3a9381731010b68/05b6e/domainparse.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 14.586709886547814%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAgElEQVQI10WPWQ7EIAxDe/+jli4QOuzgSayp5sOS84TjsI0xcd8eOResBdVCKRXGp3pjrXWIRPo5F/Vy7wNCEDzPh3zrXR/HiFwKl4wxuLzWRm8ybwHz3dT/XEQQNZ9SIt+ShvfdaUvkZSa2is2Nsy07jos+58rCl1vWuRPX75dfbyrpu+ITJS0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;domain&quot;
+        title=&quot;&quot;
+        src=&quot;/static/5d67873ccde3fb99c3a9381731010b68/fb8a0/domainparse.png&quot;
+        srcset=&quot;/static/5d67873ccde3fb99c3a9381731010b68/1a291/domainparse.png 148w,
+/static/5d67873ccde3fb99c3a9381731010b68/2bc4a/domainparse.png 295w,
+/static/5d67873ccde3fb99c3a9381731010b68/fb8a0/domainparse.png 590w,
+/static/5d67873ccde3fb99c3a9381731010b68/526de/domainparse.png 885w,
+/static/5d67873ccde3fb99c3a9381731010b68/fa2eb/domainparse.png 1180w,
+/static/5d67873ccde3fb99c3a9381731010b68/05b6e/domainparse.png 1234w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;ant design 支持&lt;/h2&gt;
+&lt;p&gt;详情查看node模块：&lt;a href=&quot;https://www.npmjs.com/package/gatsby-plugin-antd&quot;&gt;https://www.npmjs.com/package/gatsby-plugin-antd&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Gatsby 调用restapi&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/49299309/gatsbyjs-getting-data-from-restful-api&quot;&gt;https://stackoverflow.com/questions/49299309/gatsbyjs-getting-data-from-restful-api&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[2019，全新的开始]]></title><description><![CDATA[2018年接近了尾声，这个冬天格外的寒冷，也让我变得更加的冷静，愿意花时间来思考未来的路将怎么走。李笑来说“七年就是一辈子”，我很乐意接受这个概念，将我的人生分为很多辈子来过。 从开始工作到201…]]></description><link>http://www.mcgtts.com/2018-12-26---new-born/</link><guid isPermaLink="false">http://www.mcgtts.com/2018-12-26---new-born/</guid><pubDate>Wed, 26 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;2018年接近了尾声，这个冬天格外的寒冷，也让我变得更加的冷静，愿意花时间来思考未来的路将怎么走。李笑来说“七年就是一辈子”，我很乐意接受这个概念，将我的人生分为很多辈子来过。&lt;/p&gt;
 &lt;p&gt;从开始工作到2019年，恰好七年，是我工作之后的第一辈子，这辈子还算完美，遇到了很多贵人相助，走的很顺利，从一无所知到技术骨干，从一无所有到有老婆有孩子，也完成了人生的原始积累。&lt;/p&gt;
 &lt;p&gt;2019年，将会是我第二辈子的开始，这是一次新生，我希望这辈子我可以跨越层层瓶颈，认知升级变成新的物种。&lt;/p&gt;
 &lt;p&gt;新生，先从搭建一个博客开始。&lt;/p&gt;
