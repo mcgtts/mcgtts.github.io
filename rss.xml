@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[gtts的博客]]></title><description><![CDATA[人生没有白走的路，每一步都算数]]></description><link>http://www.mcgtts.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 03 Jan 2019 01:26:15 GMT</lastBuildDate><item><title><![CDATA[使用Gatsby.js+github pages搭建个人博客]]></title><description><![CDATA[前几天突然想搭建个人博客，对 和 都很熟悉，我们公司也有类似的文档生成工具 Ydoc , 所以更加偏向于使用 的方案，就选择了 。这还没过几天就发现了 ，当看到“Gatsby.js 是一个基于 React…]]></description><link>http://www.mcgtts.com/2018-12-31---setup-blog/</link><guid isPermaLink="false">http://www.mcgtts.com/2018-12-31---setup-blog/</guid><pubDate>Mon, 31 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;前几天突然想搭建个人博客，对&lt;code class=&quot;language-text&quot;&gt;Jekyll&lt;/code&gt;和&lt;code class=&quot;language-text&quot;&gt;Hexo&lt;/code&gt;都很熟悉，我们公司也有类似的文档生成工具&lt;a href=&quot;https://github.com/YMFE/ydoc&quot;&gt;Ydoc&lt;/a&gt;, 所以更加偏向于使用&lt;code class=&quot;language-text&quot;&gt;js&lt;/code&gt;的方案，就选择了&lt;code class=&quot;language-text&quot;&gt;Hexo&lt;/code&gt;。这还没过几天就发现了&lt;code class=&quot;language-text&quot;&gt;Gatsby.js&lt;/code&gt;，当看到“Gatsby.js 是一个基于 React 的静态网站生成器”，果断开始研究，这一研究，就把自己的博客马上换成了&lt;a href=&quot;https://www.gatsbyjs.org&quot;&gt;Gatsby.js&lt;/a&gt; 。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[gtts的博客]]></title><description><![CDATA[人生没有白走的路，每一步都算数]]></description><link>http://www.mcgtts.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 03 Jan 2019 02:31:22 GMT</lastBuildDate><item><title><![CDATA[使用Gatsby.js+github pages搭建个人博客]]></title><description><![CDATA[前几天突然想搭建个人博客，对 和 都很熟悉，我们公司也有类似的文档生成工具 Ydoc , 所以更加偏向于使用 的方案，就选择了 。这还没过几天就发现了 ，当看到“Gatsby.js 是一个基于 React…]]></description><link>http://www.mcgtts.com/2018-12-31setup-blog/</link><guid isPermaLink="false">http://www.mcgtts.com/2018-12-31setup-blog/</guid><pubDate>Mon, 31 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;前几天突然想搭建个人博客，对&lt;code class=&quot;language-text&quot;&gt;Jekyll&lt;/code&gt;和&lt;code class=&quot;language-text&quot;&gt;Hexo&lt;/code&gt;都很熟悉，我们公司也有类似的文档生成工具&lt;a href=&quot;https://github.com/YMFE/ydoc&quot;&gt;Ydoc&lt;/a&gt;, 所以更加偏向于使用&lt;code class=&quot;language-text&quot;&gt;js&lt;/code&gt;的方案，就选择了&lt;code class=&quot;language-text&quot;&gt;Hexo&lt;/code&gt;。这还没过几天就发现了&lt;code class=&quot;language-text&quot;&gt;Gatsby.js&lt;/code&gt;，当看到“Gatsby.js 是一个基于 React 的静态网站生成器”，果断开始研究，这一研究，就把自己的博客马上换成了&lt;a href=&quot;https://www.gatsbyjs.org&quot;&gt;Gatsby.js&lt;/a&gt; 。&lt;/p&gt;
 &lt;h2&gt;起步&lt;/h2&gt;
 &lt;p&gt;1、安装cli&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;npm install -g gatsby-cli&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -105,12 +105,12 @@ gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;ant design 支持&lt;/h2&gt;
 &lt;p&gt;详情查看node模块：&lt;a href=&quot;https://www.npmjs.com/package/gatsby-plugin-antd&quot;&gt;https://www.npmjs.com/package/gatsby-plugin-antd&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Gatsby 调用restapi&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/49299309/gatsbyjs-getting-data-from-restful-api&quot;&gt;https://stackoverflow.com/questions/49299309/gatsbyjs-getting-data-from-restful-api&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[2019，全新的开始]]></title><description><![CDATA[2018年接近了尾声，这个冬天格外的寒冷，也让我变得更加的冷静，愿意花时间来思考未来的路将怎么走。李笑来说“七年就是一辈子”，我很乐意接受这个概念，将我的人生分为很多辈子来过。 从开始工作到201…]]></description><link>http://www.mcgtts.com/2018-12-26---new-born/</link><guid isPermaLink="false">http://www.mcgtts.com/2018-12-26---new-born/</guid><pubDate>Wed, 26 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;2018年接近了尾声，这个冬天格外的寒冷，也让我变得更加的冷静，愿意花时间来思考未来的路将怎么走。李笑来说“七年就是一辈子”，我很乐意接受这个概念，将我的人生分为很多辈子来过。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/49299309/gatsbyjs-getting-data-from-restful-api&quot;&gt;https://stackoverflow.com/questions/49299309/gatsbyjs-getting-data-from-restful-api&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[2019，全新的开始]]></title><description><![CDATA[2018年接近了尾声，这个冬天格外的寒冷，也让我变得更加的冷静，愿意花时间来思考未来的路将怎么走。李笑来说“七年就是一辈子”，我很乐意接受这个概念，将我的人生分为很多辈子来过。 从开始工作到201…]]></description><link>http://www.mcgtts.com/2018-12-26new-born/</link><guid isPermaLink="false">http://www.mcgtts.com/2018-12-26new-born/</guid><pubDate>Wed, 26 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;2018年接近了尾声，这个冬天格外的寒冷，也让我变得更加的冷静，愿意花时间来思考未来的路将怎么走。李笑来说“七年就是一辈子”，我很乐意接受这个概念，将我的人生分为很多辈子来过。&lt;/p&gt;
 &lt;p&gt;从开始工作到2019年，恰好七年，是我工作之后的第一辈子，这辈子还算完美，遇到了很多贵人相助，走的很顺利，从一无所知到技术骨干，从一无所有到有老婆有孩子，也完成了人生的原始积累。&lt;/p&gt;
 &lt;p&gt;2019年，将会是我第二辈子的开始，这是一次新生，我希望这辈子我可以跨越层层瓶颈，认知升级变成新的物种。&lt;/p&gt;
 &lt;p&gt;新生，先从搭建一个博客开始。&lt;/p&gt;
 &lt;p&gt;新生，是过去的总结，也是未来的开始，加油吧少年。。。。。。&lt;/p&gt;
-&lt;p&gt;这是一个最好的时代，也是一个最坏的时代&lt;/p&gt;</content:encoded></item><item><title><![CDATA[QRN更新方案]]></title><description><![CDATA[名词解释 QP 包: qunar 自定义的一种文件格式，类似zip 包，会将静态资源（js,css,png等）打包成一个文件 vid：类似版本号，整型类型，随着客户端发版递增，用来做版本控制 背景 在大前端的环境下，跨平台和动态更新是两个绕不过去话题。2014年Qunar…]]></description><link>http://www.mcgtts.com/2018-08-10---qrn-update/</link><guid isPermaLink="false">http://www.mcgtts.com/2018-08-10---qrn-update/</guid><pubDate>Fri, 10 Aug 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;名词解释&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这是一个最好的时代，也是一个最坏的时代&lt;/p&gt;</content:encoded></item><item><title><![CDATA[QRN更新方案]]></title><description><![CDATA[名词解释 QP 包: qunar 自定义的一种文件格式，类似zip 包，会将静态资源（js,css,png等）打包成一个文件 vid：类似版本号，整型类型，随着客户端发版递增，用来做版本控制 背景 在大前端的环境下，跨平台和动态更新是两个绕不过去话题。2014年Qunar…]]></description><link>http://www.mcgtts.com/2018-08-10qrn-update/</link><guid isPermaLink="false">http://www.mcgtts.com/2018-08-10qrn-update/</guid><pubDate>Fri, 10 Aug 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;名词解释&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;QP 包: qunar 自定义的一种文件格式，类似zip 包，会将静态资源（js,css,png等）打包成一个文件&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -138,42 +138,7 @@ gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;iOS_vid&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; vid_9&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;vid_10&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h4&gt;2、解决页面加载慢问题&lt;/h4&gt;
 &lt;p&gt;针对页面加载慢，我们可以通过缓存策略，将本来应该从线上请求的资源，在本地存在的情况下直接从本地获取，本地不存在再去线上请求。如下图所示： &lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/72a4b7124bfb84a4db5e3d6b24955d40/599ff/01.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 59.976931949250286%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAAB8UlEQVQoz3VSXW/TMBTNP+Pn8AS/YE888cJ+wMQQQrxO04RAAjFgGu26QdEkunUrS7/TOHWbOIkdfzvcNCmwByzLvvI9x/dcH3vlP8NtVqk0WtE5yqeLbBSkOGblf4Z3j+wqeohw69ug9d1vdf3OD/96MO7OTk6Hby6mH9ujd2fj90LzGu5tWRY2peRsOjO8sFLKnClbGsa0VvvtJ08/PNw72dk9frx7/CjjSc25V1kac/mlI2YLiG2ewWoYddbWWcWZ5twy9qfFiszT4K7zmgyOxPitGR6WwSdnjFnhilywEsjOwb1i5NsstbyotTZkkQXTi1eL85fo7IWcHJXrlgOt/i+tlID60JK1KYklDp0QMksFnAvBOf8r21JmErJOizhlnFJXMJJlJEIWipeOcLvfxrfzTJE4WmKEUJIkXi1AY6SCWRpFQTCHxAqhumerJL+5KvPk+Vf04Flv58AX/avGlY3sKoA6KpiK7nnjmVaW0caHCumoMHufJ6NFWnLqmmPnGes0THgPQgTG2pUGckLoCLut9wpAoG5yZ5ahWMV6+yO8mEowNOcqZ4IqW2iHSf7z+rbX69/448tefzgJAACVAZDnnOaMcF1IU5HzTdRMobi0GRPhch3i9XJN5uEyWiUcLpWGAUCZQlvKtdSV+b8BaOajtcwu10YAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;image&quot;
-        title=&quot;&quot;
-        src=&quot;/static/72a4b7124bfb84a4db5e3d6b24955d40/fb8a0/01.png&quot;
-        srcset=&quot;/static/72a4b7124bfb84a4db5e3d6b24955d40/1a291/01.png 148w,
-/static/72a4b7124bfb84a4db5e3d6b24955d40/2bc4a/01.png 295w,
-/static/72a4b7124bfb84a4db5e3d6b24955d40/fb8a0/01.png 590w,
-/static/72a4b7124bfb84a4db5e3d6b24955d40/526de/01.png 885w,
-/static/72a4b7124bfb84a4db5e3d6b24955d40/fa2eb/01.png 1180w,
-/static/72a4b7124bfb84a4db5e3d6b24955d40/599ff/01.png 1734w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./01.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;步骤1&lt;/code&gt;先发起一个网络请求没有直接从服务端获取数据，而是通过&lt;code class=&quot;language-text&quot;&gt;步骤2&lt;/code&gt;经过了“网络请求拦截器”，再经过“拦截过滤器”进行一次摔选，保证本地有资源的情况下，直接从本地拿数据，在本地构造一个Response 完成网络请求，本地没有数据的情况下，通过&lt;code class=&quot;language-text&quot;&gt;步骤7&lt;/code&gt;从线上获取资源，这样就在数据获取方面做到了最快。&lt;/p&gt;
 &lt;h4&gt;3、解决发版灵活问题&lt;/h4&gt;
 &lt;p&gt;针对灵活发版，我们先给出一个最小化解决方案。 我们的业务代码一般放在gitlab，当代码开发完成之后接着就是打包，生成一个可供客户端下载的包（即QP 包），这个包需要一个服务端来做版本控制，我们暂且叫QP Server，最后客户端通过一定的更新策略，就可以更新到合适的QP 包，当本地有包了，就按前面介绍的缓存策略来加载资源，如下图所示。&lt;/p&gt;
